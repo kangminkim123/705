@@ -52,7 +52,7 @@ physics.addBody( landSquare, "dynamic", {
     } )
 
 local theCharacter = display.newImage( "./assets/sprites/mario.png" )
-theCharacter.x = display.contentCenterX - 200
+theCharacter.x = display.contentCenterX 
 theCharacter.y = display.contentCenterY
 theCharacter.id = "the character"
 physics.addBody( theCharacter, "dynamic", {
